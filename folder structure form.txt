@@ -1,0 +1,43 @@
+maintenance_form_project/
+├── index.php              # Entry point for the website
+├── dashboard.php           # User dashboard page
+├── staff_dashboard.php     # Staff dashboard page
+├── admin_dashboard.php     # Admin dashboard page
+├── submit_request.php      # Form to submit maintenance request
+├── view_requests.php       # View user requests
+├── notifications.php       # Notifications page
+├── update_profile.php      # User profile update page
+├── help.php                # Help page for user support
+├── logout.php              # Logout script
+├── config/
+│   └── db.php              # Database connection file
+├── assets/
+│   ├── css/
+│   │   └── styles.css       # Global CSS file for styling
+│   ├── js/
+│   │   └── main.js          # Main JavaScript file
+│   └── images/              # Folder for images (logos, icons, etc.)
+├── includes/
+│   ├── header.php           # Common header for all pages
+│   ├── footer.php           # Common footer for all pages
+│   └── navbar.php           # Navigation bar for users, staff, and admin
+├── controllers/
+│   ├── userController.php   # Handles user operations (register, login, profile)
+│   ├── requestController.php# Handles request submissions and updates
+│   ├── staffController.php  # Handles staff-side operations
+│   └── adminController.php  # Handles admin functions
+├── models/
+│   ├── User.php             # User model
+│   ├── Request.php          # Maintenance request model
+│   ├── Staff.php            # Staff model
+│   └── Admin.php            # Admin model
+├── views/
+│   ├── user/
+│   │   └── dashboard.php     # User-specific dashboard view
+│   ├── staff/
+│   │   └── dashboard.php     # Staff-specific dashboard view
+│   └── admin/
+│       └── dashboard.php     # Admin-specific dashboard view
+├── sql/
+│   └── db.sql               # Database schema file
+└── README.md                # Project documentation
